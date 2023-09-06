@@ -1,6 +1,6 @@
 a="saman"
 b=26
 print("my name is %s, i am %d" %(a,b))
-a*b
+a
 
 
