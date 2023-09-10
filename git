@@ -1,1 +1,2 @@
-
+git clone (link)    = to download project to wsl terminal
+git pull origin main = update your files which are from github
