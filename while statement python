@@ -1,0 +1,5 @@
+x=10
+while true:
+sth
+x-=10 
+x=max(x,11)
