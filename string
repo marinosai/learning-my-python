@@ -1,0 +1,45 @@
+a='saman'
+b='sam'
+print(a+b)
+
+a='a'
+b=3*'a'
+print(b)
+
+
+#partial_match
+a="sdasda"
+"s" in a
+
+#exact_match
+a='saman'
+"sman" == a
+
+reges101.com
+
+a='saman'
+a[0]
+
+a=[saman]
+a[-len(a)] == a[0]
+
+a='saman'
+a[:4]
+
+
+a='saman samedi'
+b=4
+a[:b]+a[b:]
+
+a='saman samedi'
+a[::-1]
+
+
+name='saman'
+age="4"
+user= name +'is'+ age + 'old'
+print(user)
+
+name='saman'
+age="4"
+f'{name} is {age} old'
