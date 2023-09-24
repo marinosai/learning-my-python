@@ -20,7 +20,7 @@ reges101.com
 a='saman'
 a[0]
 
-a=[saman]
+a=['saman']
 a[-len(a)] == a[0]
 
 a='saman'
