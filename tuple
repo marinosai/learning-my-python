@@ -1,0 +1,39 @@
+sys.getsizeof(tuple())
+
+
+tuple=(1)
+type(tuple)
+= python thinks that 1 is a matematic expression like (1+2)
+but
+tuple=(1,) is tuple type
+
+list( sth ) will change sth which is countable to table
+list( 'sasa'  )
+list([1,2,3])
+list(('sadas','sa','sd'))
+all thre above are iterable( you can count them)
+
+tuple( sth ) will change sth which is countable to table
+tuple( 'sasa'  )
+tuplelist([1,2,3])
+tuplelist(('sadas','sa','sd'))
+all thre above are iterable( you can count them)
+
+
+#unpacking the tupe
+t=('ali', 'ahmad' , 'reza')
+n1,n2,n3=t
+print(n1)
+ptint(t)
+
+#packing and unpacking in the same line
+n1,n2,n3 =('ali', 'ahmad' , 'reza')
+print(n1)
+for advance xmample
+for name , age in () : #it will unpack the parameters in () to name and age
+
+t=('ali', 'ahmad' , 'reza')
+n1, *x=t
+print(x)
+#it will input all pther members except n1 to x
+
