@@ -1,0 +1,34 @@
+time has the diverse relation with space
+to calcutate the time spend in algorithm we use %timeit sth
+
+to find the addres in array the formula is a[0]+(the place we want to find its addres * 8
+8 is the space which is byte in arrays
+access in array big o notation is (o)1
+search o(n)
+delet o(n)
+insert o(n)
+on = linear search
+
+lined list
+access o(n)
+search  o(n)
+delet  1(n)
+insert 1(n)
+
+
+
+
+
+import sys
+
+sys.getsizeof([]) = 56
+sysgetsizeof([1]) = 64
+64-56= 8 bit   sysgetsizeof([1])-56
+
+
+#best case in list
+x=[1,2,3]
+x.append(4)
+print (x)
+
+#worse case in list
