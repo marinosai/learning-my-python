@@ -32,3 +32,18 @@ x.append(4)
 print (x)
 
 #worse case in list
+
+sys.getsizeof(sth())
+sys.getsizeof(a([0])
+
+
+list in pythone
+access = o(1)
+%timeit a[1]
+a=list(range(999))
+
+a=[1,2,3]
+[1]+a    #worst case because it should shift all the numbers incliding (1,2,3)
+#but 
+a=[1,2,3]
+a.append(5)  # this is best case
