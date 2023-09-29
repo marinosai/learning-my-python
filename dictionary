@@ -1,0 +1,63 @@
+d= { #>>>> curely bracket
+    'ali': 18.5,
+    'hasa':19,
+    'aida': 20,
+   }
+
+d= dict([
+  ("ali",19.5),
+  ("hassan",8),    or any itareble like []
+  ("ahmad",79),
+)]  
+
+d= dict (
+   ali=8,
+  hassan=79,
+  taqi= 77.5,
+)
+
+
+d= {
+0: "a",
+4: "s",
+}
+d[4]
+
+        #dictionaries are iterable
+        in python 3.5 and before it was not iterable
+d= {
+0: "a",
+4: "s",
+}
+for key in d:
+ print(key)
+
+
+d= {
+0: "a",
+4: "s",
+}
+del d[0]
+print(d)
+
+
+        
+d= {
+0: "a",
+4: "s",
+}
+del d[0]
+d[0]='a'
+print(d)
+
+d= { #>>>> curely bracket
+    'ali': 18.5,
+    'hasa':19,
+    'aida': 20,
+   }
+
+d['ali']=5  >> it will rewrite the previous amount (18.5)
+
+
+to make empty dictionary        empty={}
+len(empty)
