@@ -1,8 +1,27 @@
+from array import array
+a=array('i',[1,2,3])
+print(a[0])
+
+#the time (accessing) in which it spends to find a[0] is the same as to find a[1] 
+for example
+
+from array import array
+a=array('i',[1,2,3])
+%timeit a[0]
+
+from array import array
+a=array('i',[1,2,3])
+%timeit a[1]
+
+in the array to find the addres it calculate in this way: a[0]+n*8 bite 
+for example i want to find the 7th table it calculate a[0]+7*8
+
 time has the diverse relation with space
 to calcutate the time spend in algorithm we use %timeit sth
 
 to find the addres in array the formula is a[0]+(the place we want to find its addres * 8
 8 is the space which is byte in arrays
+
 access in array big o notation is (o)1
 search o(n)
 delet o(n)
@@ -15,7 +34,12 @@ search  o(n)
 delet  1(n)
 insert 1(n)
 
-
+list in python
+access : a[0]+n*8  big o notation= o(1)
+search : o(n)
+delet: o(n)
+insert o(n)
+it is the same as array but the difference is that in this case the spaces are homogenous
 
 
 
