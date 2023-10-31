@@ -1,0 +1,62 @@
+a= list(range(1000))
+%timeit a[1]
+
+
+import sys
+a= [1,'a',3]
+b=sys.getsizeof(a[2])
+c=sys.getsizeof(a[0])
+print(b)
+print(c)
+
+
+import sys
+sys.getsizeof([1])
+
+import sys
+sys.getsizeof([1,0,'a'])
+
+x=[1,2,3]
+x[0] + 1
+print(x)
+
+a=[0,1,2]
+a.append(3,'sd')
+print(a)
+
+empty={}
+len(empty)
+
+from array import array
+a=array('i',[1,2,3])
+%timeit a[0]
+
+
+from array import array
+a=array('i',[1,2,3])
+%timeit a[1]
+
+
+number= int(input('enter a number'))
+if number % 2 == 0:
+ print('the number is even')
+else:
+ print('it is odd ')
+
+
+ a=10.504178
+print("%2.f"%a)
+
+
+a=['a',"s",2,3,11,22,34]
+a[:4]+a[4:]==a
+
+a=[1,2,3,4,5,6,7,8,9]
+a+[4,8]
+
+a=[1,2,3]
+a.append[5]
+print(a)
+
+a=10.504178
+print("%2.f"%a)
