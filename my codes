@@ -60,3 +60,21 @@ print(a)
 
 a=10.504178
 print("%2.f"%a)
+
+#Write a program that stores a string in a variable and, starting from that variable, displays the first three characters of the string, followed by three points, then followed by the last three characters. For example, if the string is initialized to the value “Mississippi”, the program/
+#Computer Programming in Python, A.A. 2023/24 Lab02
+#3
+#must display “Mis...ppi”. What happens if the string is less than 6 characters long? What if it is shorter than 3 characters? [P2.22]
+
+#THE_ANSWER
+
+Entered_str=str(input('enter more than 6 characters'))
+if len(Entered_str) >= 6:
+    output_seperated_str= Entered_str[0:3] +'...'+ Entered_str[-3:]
+    print(f'seperated characters are {output_seperated_str}')
+else: 
+   if all(c.isalpha() for c in Entered_str):
+      print('you should enter at least 6 strings not numbers')
+   else:
+      print(' please enter equal or more than 6 characters')
+
