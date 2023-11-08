@@ -13,3 +13,30 @@ d={
 }
 for i in d.values():
     print(i)
+
+d={
+    "saman":28,
+    "sasan":15,
+    
+}
+for i in d.keys():
+    print(i)
+
+#each eleman is tuple
+d={
+    "saman":28,
+    "sasan":15,
+    
+}
+for i in d.items():
+    print(i)
+
+
+#unpacking the dictionary into two values in for loops
+d={
+    "saman":28,
+    "sasan":15,
+    
+}
+for i,j in d.items():
+    print(i,j)
