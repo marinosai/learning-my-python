@@ -1,0 +1,15 @@
+d={
+    "saman":28,
+    "sasan":15,
+    
+}
+for i in d:
+    print(i)
+
+d={
+    "saman":28,
+    "sasan":15,
+    
+}
+for i in d.values():
+    print(i)
