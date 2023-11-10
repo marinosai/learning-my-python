@@ -42,7 +42,7 @@ for i,j in d.items():
     print(i,j)
 
 
-fruits=["apple","benana", "kir"]
+fruits=["apple","benana", "t"]
 for x in fruits:
      print(x)
 print(x +"y j")
