@@ -40,3 +40,9 @@ d={
 }
 for i,j in d.items():
     print(i,j)
+
+
+fruits=["apple","benana", "kir"]
+for kos in fruits:
+     print(kos)
+print(kos +"kir khar")
