@@ -43,6 +43,6 @@ for i,j in d.items():
 
 
 fruits=["apple","benana", "kir"]
-for kos in fruits:
-     print(kos)
-print(kos +"kir khar")
+for x in fruits:
+     print(x)
+print(x +"y j")
