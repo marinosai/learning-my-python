@@ -63,3 +63,57 @@ for i in s:
     print(i)
 
 #####
+stringg=''
+password=['@',"1",'3']
+for i in password:
+    stringg+=len(password)
+print(stringg)
+###############################
+q=""
+symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+for i,j in enumerate(symbols):
+    q=j+q
+print(f'the first is {i}, the second is {q}')
+################################
+
+#Password Generator Project
+import random
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+print("Welcome to the PyPassword Generator!")
+nr_letters= int(input("How many letters would you like in your password?\n")) 
+nr_symbols = int(input(f"How many symbols would you like?\n"))
+nr_numbers = int(input(f"How many numbers would you like?\n"))
+
+#Eazy Level - Order not randomised:
+#e.g. 4 letter, 2 symbol, 2 number = JduE&!91
+
+
+#Hard Level - Order of characters randomised:
+#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+
+printed_string_line=''
+for i in range(nr_letters):
+    random_choice_letter=random.choice(letters)
+    printed_string_line+=random_choice_letter
+#print(printed_string_line)
+    
+for i in range(nr_symbols):
+    random_choice_symbol=random.choice(symbols)
+    printed_string_line+=random_choice_symbol
+#print(printed_string_line)
+
+for i in range(nr_numbers):
+    random_choice_numbers=random.choice(numbers)
+    printed_string_line+=random_choice_numbers
+printed_string_line=list(printed_string_line)
+random.shuffle(printed_string_line)
+resulted_pass=''.join(printed_string_line)
+print(resulted_pass)
+
+    
+    
+    
+    ###########################
