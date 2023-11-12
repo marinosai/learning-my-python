@@ -43,3 +43,7 @@ print(user)
 name='saman'
 age="4"
 f'{name} is {age} old'
+#####
+a='a'
+b='3'
+print(a+b)
