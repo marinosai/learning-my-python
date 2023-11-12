@@ -46,3 +46,20 @@ fruits=["apple","benana", "t"]
 for x in fruits:
      print(x)
 print(x +"y j")
+#########
+a=[1,77,3,4,]
+for i in range(0,len(a)):
+    a[i]+=1
+print(a)
+#######
+a=['s','d','ss']
+for p in range(8):
+ random_letters=random.choice(a)
+ print(random_letters)
+######
+
+s=["s",'ss']
+for i in s:
+    print(i)
+
+#####
