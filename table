@@ -41,3 +41,28 @@ a=a+['salam','goodsafe']
 print(a)
 
 sys.getsizeof([])
+
+a=[1,3,55]
+k=len(a)
+print(a[k-1])
+
+
+import random 
+inputt=input('give names')
+inputtt=inputt.split(',')
+randomm=random.choice(inputtt)
+print(randomm)
+
+
+
+a=input('s')
+ab=a.split(", ")
+print(ab)
+
+
+import random 
+inputt=input('give names')
+splited= inputt.split(", ")
+list_of_names=random.randint(0,len(splited)-1)
+person_should_pay=splited[list_of_names]
+print(person_should_pay)
