@@ -10,3 +10,10 @@ b = ['s', 'd']
 result = any(str(y).isnumeric() for y in a)
 print(result)
 This code will convert each element in list a to a string before checking if it's numeric. If any element is numeric, the any() function will return True. If none of the elements are numeric, it will return False.
+
+
+typp={1,'s'}
+a=[str(u) for u in typp]
+print(a)
+
+   
